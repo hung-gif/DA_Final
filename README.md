@@ -12,15 +12,9 @@ Build a binary classification model to predict whether an employee will leave th
 
 ## Dataset
 
-Five CSV files loaded from Google Drive:
+Five CSV files loaded from Kaggle:
 
-| File | Description |
-|---|---|
-| `employee_survey_data` | Employee self-reported satisfaction (job, environment, work-life balance) |
-| `general_data` | General employee info (age, salary, experience, etc.) |
-| `manager_survey_data` | Manager evaluations |
-| `in_time` | Daily clock-in timestamps per employee |
-| `out_time` | Daily clock-out timestamps per employee |
+https://www.kaggle.com/datasets/vjchoudhary7/hr-analytics-case-study
 
 All tables are merged on `EmployeeID` into a single DataFrame (`df_final`).
 
